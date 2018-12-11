@@ -1,15 +1,14 @@
+style>
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #069;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -17,7 +16,10 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-li a:hover {
-    background-color: #111;
+li a:hover:not(.active) {
+    background-color: #069;
 }
+.active {
+    background-color: #069;
+}
+</style>
